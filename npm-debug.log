@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', '-g', 'uninstall', 'bower' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose unbuild lib/node_modules/bower
+5 info preuninstall bower@1.5.2
+6 info uninstall bower@1.5.2
+7 verbose unbuild rmStuff bower@1.5.2 from /usr/local/lib/node_modules
+8 silly gentlyRm /usr/local/bin/bower is being gently removed
+9 silly gentlyRm verifying /usr/local is an npm working directory
+10 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+11 silly gentlyRm deletion target /usr/local/bin/bower is under /usr/local
+12 verbose gentlyRm vacuuming from /usr/local/bin/bower up to /usr/local
+13 silly vacuum-fs removing /usr/local/bin/bower
+14 verbose stack Error: EACCES, unlink '/usr/local/bin/bower'
+14 verbose stack     at Error (native)
+15 verbose cwd /Users/unicurva/Documents/JavaScript/DittoDot
+16 error Darwin 14.5.0
+17 error argv "node" "/usr/local/bin/npm" "-g" "uninstall" "bower"
+18 error node v0.12.2
+19 error npm  v2.7.4
+20 error path /usr/local/bin/bower
+21 error code EACCES
+22 error errno -13
+23 error Error: EACCES, unlink '/usr/local/bin/bower'
+23 error     at Error (native)
+23 error  { [Error: EACCES, unlink '/usr/local/bin/bower'] errno: -13, code: 'EACCES', path: '/usr/local/bin/bower' }
+24 error Please try running this command again as root/Administrator.
+25 verbose exit [ -13, true ]
